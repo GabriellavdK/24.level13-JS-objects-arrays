@@ -1,9 +1,9 @@
-/* //Deel 1 van de opdracht - Objecten
+//Deel 1 van de opdracht - Objecten
 // Hieronder is een voorbeeld te zien van een object.
 let person = {
     name: "Gabriëlla",
     age: 32,
-    evaluations: [7, 10, 9]
+    evaluations: [7, 10, 9],
 };
 //Name wordt in het bovenstaande object ook wel een key genoemd en "Gabriella" is de value. 
 
@@ -30,7 +30,7 @@ console.log(colors.length); // Weergeeft het aantal values in de array.
 
 console.log(colors[0]); // Logt het eerst element van de Array. JS start altijd met tellen bij 0.
 
-console.log(colors.length-1); // Geeft de key van de laatste waarde aan in de Array. Omdat er nu 3 kleuren in staan en er gestart wordt met tellen bij 0 is dit antwoord dus 2. 
+console.log(colors[colors.length-1]); // Geeft de value van de laatste key aan in de Array. Omdat er nu 3 kleuren in staan en er gestart wordt met tellen bij 0 is dit antwoord dus 2. 
 
 console.log(colors.push("geel")); // Met push voeg je een nieuwe value toe aan je array. 
 console.log(colors); 
@@ -41,7 +41,7 @@ console.log(colors);
 console.log(colors.push({greeting: "hi ik ben een object"})); // Op deze wijze voeg je een object toe binnen een array.
 console.log(colors);
 
-console.log(colors[5].greeting); // Op deze wijze kun je de value van een object binnen een array loggen. */
+console.log(colors[colors.length-1].greeting); // Op deze wijze kun je de value van een object binnen een array loggen.
 
 
 // Deel 3 van de opdracht
